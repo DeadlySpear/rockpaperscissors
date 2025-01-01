@@ -1,0 +1,51 @@
+.heading{
+  font-weight: bold;
+  font-size: 25px;
+  color:aliceblue;
+  
+}
+.move{
+  color: white;
+}
+.winLoss {
+  color: white;
+  font-weight: 100;
+}
+.move-icon{
+  background-color: black;
+  height: 50px;
+}
+.move-holder{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+}
+.move-holder:hover{
+  cursor: pointer;
+}
+.rps-buttons{
+  width: 400px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.your-move{
+  background-color: black;
+  height: 50px;
+  margin-left: 1em;
+  margin-right: 10px;
+}
+.computer-move{
+  background-color: black;
+  height: 50px;
+  margin-right: 1em;
+}
+.score{
+  color: white;
+}
+.autoplay-stop{
+  display: inline;
+}
