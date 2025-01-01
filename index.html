@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rps.css">
+  </head>
+  <body style="background-color: black;    font-family: Arial;
+  ">
+
+    <p class="heading">Rock Paper Scissors</p>
+    
+    <div class="rps-buttons">
+      <button onclick="
+      playGame('rock');
+      stopRep(a);
+      autoplayButton();
+      " class="move-holder"><img class='move-icon' src="rps_icons/rock-emoji.png">
+      </button>
+  
+      <button onclick="
+        playGame('paper');
+        stopRep(a);
+        autoplayButton();
+      " class="move-holder"><img class='move-icon' src="rps_icons/paper-emoji.png"></button>
+  
+      <button onclick="
+        playGame('scissors');
+        stopRep(a);
+        autoplayButton();
+      " class="move-holder"><img class='move-icon' src="rps_icons/scissors-emoji.png"></button>
+    </div>
+
+    <p class="winLoss"></p>
+    <p class="move">You<img class= "your-move" src="rps_icons/rock-emoji.png"><img class= "computer-move" src="rps_icons/rock-emoji.png">Computer</p>
+    
+    
+    <p class="score"></p>
+
+    <button class="reset" onclick="reset()">Reset</button>
+    <div class="autoplay-stop"><button class="autoplay" onclick="a=gameRunner();stopButton();">
+      Autoplay</button></div>
+    
+    
+
+    <script src="rps.js"></script>
+  </body>
+</html>
